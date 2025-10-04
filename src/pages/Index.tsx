@@ -178,28 +178,87 @@ const Index = () => {
           <h3 className="text-4xl font-bold mb-12 text-center bg-gradient-primary bg-clip-text text-transparent">
             Портфолио достижений
           </h3>
-          <Card className="max-w-4xl mx-auto animate-fade-in border-2 hover:shadow-xl transition-shadow">
-            <CardContent className="p-8">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="p-3 bg-gradient-primary rounded-full">
-                  <Icon name="Award" className="text-white" size={24} />
+          
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <Card className="group animate-fade-in border-2 hover:shadow-2xl transition-all cursor-pointer overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="/img/42c0cece-17f9-40cb-bb0a-a7edc1d447f0.jpg" 
+                      alt="Диплом за академические достижения"
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                      <div className="text-white">
+                        <p className="font-semibold">Диплом победителя</p>
+                        <p className="text-sm opacity-90">Академические достижения</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="group animate-fade-in border-2 hover:shadow-2xl transition-all cursor-pointer overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="/img/feea892f-5d20-4024-affb-5f93f67bd483.jpg" 
+                      alt="Награда за отличные результаты"
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                      <div className="text-white">
+                        <p className="font-semibold">Награда за отличные результаты</p>
+                        <p className="text-sm opacity-90">Учебные успехи</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="group animate-fade-in border-2 hover:shadow-2xl transition-all cursor-pointer overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="/img/f72d0ed2-854d-456b-8312-a444e4fe5dba.jpg" 
+                      alt="Сертификат олимпиады"
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                      <div className="text-white">
+                        <p className="font-semibold">Олимпиада по химии</p>
+                        <p className="text-sm opacity-90">Призер регионального этапа</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <Card className="animate-fade-in border-2 hover:shadow-xl transition-shadow">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-3 bg-gradient-primary rounded-full">
+                    <Icon name="Award" className="text-white" size={24} />
+                  </div>
+                  <h4 className="text-2xl font-bold">Дополнительные достижения</h4>
                 </div>
-                <h4 className="text-2xl font-bold">Мои достижения</h4>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-                <div className="p-4 bg-gradient-card rounded-lg border border-primary/20">
-                  <Icon name="Trophy" className="text-primary mb-2" size={32} />
-                  <p className="font-semibold">Дипломы и награды</p>
-                  <p className="text-sm text-gray-600 mt-1">Академические достижения</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                  <div className="p-4 bg-gradient-card rounded-lg border border-primary/20">
+                    <Icon name="Trophy" className="text-primary mb-2" size={32} />
+                    <p className="font-semibold">Дипломы и награды</p>
+                    <p className="text-sm text-gray-600 mt-1">Академические достижения</p>
+                  </div>
+                  <div className="p-4 bg-gradient-card rounded-lg border border-secondary/20">
+                    <Icon name="Star" className="text-secondary mb-2" size={32} />
+                    <p className="font-semibold">Олимпиады</p>
+                    <p className="text-sm text-gray-600 mt-1">Участие в научных мероприятиях</p>
+                  </div>
                 </div>
-                <div className="p-4 bg-gradient-card rounded-lg border border-secondary/20">
-                  <Icon name="Star" className="text-secondary mb-2" size={32} />
-                  <p className="font-semibold">Олимпиады</p>
-                  <p className="text-sm text-gray-600 mt-1">Участие в научных мероприятиях</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
