@@ -54,7 +54,7 @@ const Index = () => {
                 Гафарова Розалия Робертовна
               </h2>
               <p className="text-xl text-gray-600 mb-6">
-                Будущий стоматолог | Увлеченная наукой и медициной
+                Ученица 11 А класса
               </p>
               <div className="flex gap-4">
                 <Button 
