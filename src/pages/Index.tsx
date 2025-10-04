@@ -273,29 +273,6 @@ const Index = () => {
                 </CardContent>
               </Card>
             </div>
-
-            <Card className="animate-fade-in border-2 hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="p-3 bg-gradient-primary rounded-full">
-                    <Icon name="Award" className="text-white" size={24} />
-                  </div>
-                  <h4 className="text-2xl font-bold">Дополнительные достижения</h4>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-                  <div className="p-4 bg-gradient-card rounded-lg border border-primary/20">
-                    <Icon name="Trophy" className="text-primary mb-2" size={32} />
-                    <p className="font-semibold">Дипломы и награды</p>
-                    <p className="text-sm text-gray-600 mt-1">Академические достижения</p>
-                  </div>
-                  <div className="p-4 bg-gradient-card rounded-lg border border-secondary/20">
-                    <Icon name="Star" className="text-secondary mb-2" size={32} />
-                    <p className="font-semibold">Олимпиады</p>
-                    <p className="text-sm text-gray-600 mt-1">Участие в научных мероприятиях</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
