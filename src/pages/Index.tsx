@@ -49,12 +49,11 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 animate-fade-in">
-              <Badge className="mb-4 bg-gradient-primary text-white">Ученица 11 класса</Badge>
               <h2 className="text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
                 Гафарова Розалия Робертовна
               </h2>
               <p className="text-xl text-gray-600 mb-6">
-                Ученица 11 А класса
+                Добро пожаловать на мою страницу!
               </p>
               <div className="flex gap-4">
                 <Button 
