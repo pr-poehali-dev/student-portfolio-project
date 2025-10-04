@@ -221,14 +221,14 @@ const Index = () => {
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="https://cdn.poehali.dev/files/af048f40-3103-4930-a3ad-893955039bad.jpg" 
-                      alt="Диплом Кубок Гагарина"
+                      src="https://cdn.poehali.dev/files/d6bfef63-a977-4c87-8ab5-ee9414f80fd6.jpg" 
+                      alt="Диплом Кубок Гагарина 2020-2021"
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                       <div className="text-white">
-                        <p className="font-semibold">Кубок Гагарина 2022-2023</p>
-                        <p className="text-sm opacity-90">Призёр школьного этапа</p>
+                        <p className="font-semibold">Кубок Гагарина 2020-2021</p>
+                        <p className="text-sm opacity-90">Победитель школьного этапа по математике</p>
                       </div>
                     </div>
                   </div>
