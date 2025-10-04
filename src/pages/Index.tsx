@@ -74,7 +74,7 @@ const Index = () => {
             </div>
             <div className="flex-1 animate-scale-in">
               <img
-                src="/img/497ed374-b2d6-44ff-94f6-c133796e6b10.jpg"
+                src="/img/f21e4370-5d6c-4319-9f24-1cadb5d55a51.jpg"
                 alt="Розалия Гафарова"
                 className="rounded-3xl shadow-2xl w-full max-w-md mx-auto"
               />
