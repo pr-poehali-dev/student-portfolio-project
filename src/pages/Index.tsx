@@ -185,14 +185,14 @@ const Index = () => {
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/img/42c0cece-17f9-40cb-bb0a-a7edc1d447f0.jpg" 
-                      alt="Диплом за академические достижения"
+                      src="https://cdn.poehali.dev/files/0f3dd763-d386-49ca-b4cb-e02b3579b469.jpg" 
+                      alt="Диплом Экостанции II степени"
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                       <div className="text-white">
-                        <p className="font-semibold">Диплом победителя</p>
-                        <p className="text-sm opacity-90">Академические достижения</p>
+                        <p className="font-semibold">Диплом II степени</p>
+                        <p className="text-sm opacity-90">Республиканский слёт Экостанций</p>
                       </div>
                     </div>
                   </div>
@@ -203,14 +203,14 @@ const Index = () => {
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/img/feea892f-5d20-4024-affb-5f93f67bd483.jpg" 
-                      alt="Награда за отличные результаты"
+                      src="https://cdn.poehali.dev/files/3d165e39-1365-4959-86c4-bdedc021e21b.jpg" 
+                      alt="Диплом призёра олимпиады по биологии"
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                       <div className="text-white">
-                        <p className="font-semibold">Награда за отличные результаты</p>
-                        <p className="text-sm opacity-90">Учебные успехи</p>
+                        <p className="font-semibold">Призёр олимпиады</p>
+                        <p className="text-sm opacity-90">Всероссийская олимпиада по биологии</p>
                       </div>
                     </div>
                   </div>
@@ -221,14 +221,52 @@ const Index = () => {
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/img/f72d0ed2-854d-456b-8312-a444e4fe5dba.jpg" 
-                      alt="Сертификат олимпиады"
+                      src="https://cdn.poehali.dev/files/af048f40-3103-4930-a3ad-893955039bad.jpg" 
+                      alt="Диплом Кубок Гагарина"
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                       <div className="text-white">
-                        <p className="font-semibold">Олимпиада по химии</p>
-                        <p className="text-sm opacity-90">Призер регионального этапа</p>
+                        <p className="font-semibold">Кубок Гагарина 2022-2023</p>
+                        <p className="text-sm opacity-90">Призёр школьного этапа</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <Card className="group animate-fade-in border-2 hover:shadow-2xl transition-all cursor-pointer overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="https://cdn.poehali.dev/files/d6bfef63-a977-4c87-8ab5-ee9414f80fd6.jpg" 
+                      alt="Диплом Кубок Гагарина 2020-2021"
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                      <div className="text-white">
+                        <p className="font-semibold">Кубок Гагарина 2020-2021</p>
+                        <p className="text-sm opacity-90">Победитель школьного этапа по математике</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="group animate-fade-in border-2 hover:shadow-2xl transition-all cursor-pointer overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="https://cdn.poehali.dev/files/f94718ae-1fb9-4632-863b-cdf1a48f80df.jpg" 
+                      alt="Диплом муниципального этапа олимпиады по математике"
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                      <div className="text-white">
+                        <p className="font-semibold">Кубок Гагарина 2021-2022</p>
+                        <p className="text-sm opacity-90">Призёр муниципального этапа по математике</p>
                       </div>
                     </div>
                   </div>
